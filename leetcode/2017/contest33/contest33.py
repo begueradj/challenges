@@ -1,5 +1,4 @@
 import itertools
-import operator
 class CheckIfSquare:
    def __init__(self, point_1, point_2, point_3, point_4):
        return set(map(self.compute_distance, itertools.combinations((point_1, point_2, point_3, point_4), 2)))
